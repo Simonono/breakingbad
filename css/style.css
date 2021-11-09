@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4f4f4f; /* Barkgrundsfärg (grå) på hela sidan */
+}
+
+nav {
+  background-color: green;
+}
+
+
+h1 {
+  font-family: papyrus, copperplate, fantasy;
+}
+
+h2 {
+  font-family: papyrus, copperplate, fantasy;
+}
+
+h3 {
+  font-family: copperplate, fantasy;
+  padding-top: 30px;
+  margin-bottom: 0;
+  font-size: 130%;
+}
+
+footer {
+  background-color: green;
+  padding: 10px 0 10px 0;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+  color: black;
+  margin-top: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.green_box {
+  background-color: #046e00;
+  border: solid black 2px;      /* Gör en "grön box" som jag använder bakom text */
+  padding: 10px 10px 10px 10px;
+}
+
+.green_box1 {
+  border: solid black 2px;   /* "Grön box" m. gradient för att mera likna Breaking bad loggan */
+  padding: 10px 10px 10px 10px;
+  background-image: linear-gradient(to bottom right, #035700, #046e00);
+}
+
+.green_box2 {
+  border: solid black 2px;
+  padding: 10px 10px 10px 10px;
+  background-image: linear-gradient(to bottom right, #046e00, #035700);
+}
+
+.border {
+  border: solid black 2px;
+}
+
+.nav {
+  font-family: "Monaco", "Lucida Console", monospace;
+  color: black;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.logo {
+  width: 9%;
+  height: 9%;
+  margin-left: 10px;
+}
+
+.nav:hover {
+  color: yellow;    /* När man håller musen över texten i Navbaren så blir den gul... */
+}
+
+.purple:hover {
+  color: purple;
+}
+
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  color: white;
+}
+
+.back-top {
+  margin-left: 60px;
+  font-size: 110%;
+  font-family: "Monaco", "Lucida Console", monospace;
+  color: purple;
+  text-decoration: none;
+}
+
+.back-top:hover {
+  color: yellow;
+}
+
+.spacing {
+  font-size: 1.7vw;
+}
+
+.description {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  width: 25%;
+}
+
+.characters {  /* Sätter storleken på karaktärs bilderna */
+  width: 15vw;
+  height: 15vw;
+}
+
+#creator {
+  font-size: 110%;
+  font-family: "Time News Roman", sans;
+}
+
+#starring {
+  font-family: garamond, sans;
+}
+
+#walt_jesse {
+  border: solid black 4px;
+  width: 100%;
+  height: auto;
+}
+
+#trailer {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar: */
+
+#home {
+  color: yellow;
+}
+
+#characters {
+  color: yellow;
+}
+
+
+
+@media only screen and (max-width: 650px){
+
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 135%
+  }
+
+  h3 {
+    font-size: 110%;
+  }
+
+  ul {
+    font-size: 90%;
+  }
+
+  .nav {
+    font-family: "Monaco", "Lucida Console", monospace;
+    font-size: 2.9vw;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 16%;
+    height: 16%;
+    margin-left: 0;
+  }
+
+  .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+  }
+
+  .characters {
+    width: 26vw;
+    height: 26vw;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  #walt_jesse {
+    border: solid black 4px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  #trailer {
+    width: 100%;
+    height: 110%;
+    margin-top: 10px;
+  }
+
+}

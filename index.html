@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Breaking Bad</title>
+    <link rel="icon" href="img/logo2.png">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+  </head>
+  <body>
+    <nav>   <!--Meny gjord med flexbox då att ha en "fixed" meny funkade inte med grid -->
+        <img class="logo" src="img/logo.png" alt="Breaking Bad's logo">
+        <a id="home" class="nav">Home</a>
+        <a class="nav" href="characters.html">Characters</a>
+        <a class="nav purple" href="https://www.imdb.com/title/tt0903747/episodes?season=1" title="Link to imdb.com" target="_blank">Episodes</a>
+        <a class="nav purple" href="https://www.netflix.com/title/70143836" title="Link to netflix.com" target="_blank">Watch on Netflix!</a>
+    </nav>
+    <div class="container">
+      <h1>The plot</h1>
+      <p class="spacing top">.</p> <!--För att fylla den första grid raden under navbar (och för att länka högst upp på sidan) -->
+      <section id="section1" class="green_box1"></section> <!--Lägger en "grön box" bakom allt som är nedanför: -->
+        <p id="home_content1" class="content">Breaking Bad follows protagonist Walter White (Bryan Cranston), a chemistry teacher who lives in New Mexico with his wife (Anna Gunn) and teenage son (RJ Mitte) who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in the world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.</p>
+        <p id="creator"> Creator: Vince Gilligan</p>
+        <p id="starring"> <em>Starring:</em> Bryan Cranston, Anna Gunn, Aaron Paul, Dean Norris, Betsy Brandt, RJ Mitte, Bob Odenkirk, Giancarlo Esposito, Jonathan Banks. </p>
+      <img id="walt_jesse" src="img/walt_jesse.jpeg" alt="Picture of two characters from the show">
+      <h2>About</h2>
+      <section id="section2" class="green_box2"> <!-- Här kan jag lägga elementen som barn till section då de lägger sig rätt utan att behöva bli påverkade av grid. Jag har barat placerat ut section i grid... -->
+        <p class="content">Lorem ipsum dolor sit 2008, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec tincidunt arcu ut placerat consequat. Phasellus mattis non arcu rhoncus feugiat. Sed laoreet ullamcorper blandit. Integer quis ligula velit. Curabitur non risus rutrum, viverra erat non, maximus ante. </p>
+        <p class="content">Integer cursus dui sodales ipsum mattis, sagittis finibus est mollis. Ut porttitor, felis nec mollis lacinia, ex metus maximus eros, vitae condimentum sapien nibh faucibus magna. Nullam pellentesque urna nec pellentesque sagittis. Quisque non placerat nulla, in finibus ipsum. Nam commodo turpis orci, ac placerat massa pulvinar in. Phasellus iaculis quis erat quis facilisis. Integer mauris velit, egestas sed porttitor.</p>
+      </section>
+      <iframe id="trailer" src="https://www.youtube.com/embed/HhesaQXLuRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <footer><a href="#top" class="back-top">Go back to top</a></footer>
+    </div>
+  </body>
+</html>
